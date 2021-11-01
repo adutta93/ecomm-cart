@@ -369,7 +369,7 @@ body {
 .channel-list__sidebar {
   width: 72px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    var(--primary-color);
+    var(--primary-theme-blue);
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.25);
   /* border-top-left-radius: 16px; */
   /* border-bottom-left-radius: 16px; */
@@ -392,7 +392,7 @@ body {
 .channel-list__list__wrapper {
   display: flex;
   flex-direction: column;
-  background: var(--primary-color);
+  background: var(--primary-theme-blue);
   width: 240px;
 }
 
@@ -438,7 +438,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
-  color: #ffffff;
+  color: var(--primary-white);
 }
 
 .channel-search__container {

@@ -8,12 +8,13 @@ import "./styles/styles.css";
 
 const apiKey = "q588ffhphduj";
 const client = StreamChat.getInstance(apiKey);
+
 function App() {
   return (
     <div className="app__wrapper">
       <Chat client={client} theme="team light">
-        <ChannelListContainer />
         <ChannelContainer />
+        <ChannelListContainer />
       </Chat>
     </div>
   );
