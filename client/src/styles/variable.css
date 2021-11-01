@@ -1,0 +1,10 @@
+:root {
+  --primary-theme-blue: #005fff;
+  --primary-theme-navy-blue: #005fff1a;
+  --primary-theme-navy-blue-2: #05245a;
+  --primary-white: #fff;
+  --form-container-label: rgb(61, 79, 88);
+  --inactive-grey: #b1b1b1;
+  --form-border: #dcdddd;
+  --pitch-black: #000000;
+}
